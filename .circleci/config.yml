@@ -26,7 +26,7 @@ jobs:
     docker:
       - image: google/cloud-sdk
     environment:
-      - PROJECT_NAME: "Staging"
+      - PROJECT_NAME: "cd-tutorial"
       - GOOGLE_PROJECT_ID: "staging-221814"
       - GOOGLE_COMPUTE_ZONE: "us-central1-b"
       - GOOGLE_CLUSTER_NAME: "cd-tutorial"
